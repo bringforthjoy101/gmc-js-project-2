@@ -65,16 +65,16 @@ function fibonacci(n) {
 
 
 console.log({
-    reverseString,
-    countCharacters,
-    capitalizeWords,
-    findMax,
-    findMin,
-    sumArray,
-    filterArray,
-    factorial,
-    isPrime,
-    fibonacci
+    reverseString: reverseString('Emmanuel'),
+    countCharacters: countCharacters('Emmanuel'),
+    capitalizeWords: capitalizeWords('emmanuel'),
+    findMax: findMax([1,2,3,4,5]),
+    findMin: findMax([1,2,3,4,5]),
+    sumArray: sumArray([1,2,3,4,5]),
+    filterArray: filterArray([1,2,3,4,5], (x)=>x>2),
+    factorial: factorial(20),
+    isPrime: isPrime(20),
+    fibonacci: fibonacci(20)
 })
     
 
